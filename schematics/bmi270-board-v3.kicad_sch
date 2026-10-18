@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f293a697-5cef-4498-8af2-cec0d81ca9d3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 159.766 78.74)
+		(size 35.306 21.844)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c3924ac-2bf0-4ad4-9f2d-62682171bc18")
+		(property "Sheetname" "MCU"
+			(at 159.766 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 159.766 101.1686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bmi270-board-v3"
+				(path "/f293a697-5cef-4498-8af2-cec0d81ca9d3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.466 116.586)
+		(size 24.638 25.146)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "654175e1-f0df-44e6-95ca-ba35ba0348b0")
+		(property "Sheetname" "MECHANICAL"
+			(at 172.466 115.8744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MECHANICAL.kicad_sch"
+			(at 172.466 142.3166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bmi270-board-v3"
+				(path "/f293a697-5cef-4498-8af2-cec0d81ca9d3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.424 108.966)
+		(size 54.864 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5a2b9d7-4bcf-4f84-b293-3ac2321edec4")
+		(property "Sheetname" "IMU"
+			(at 90.424 108.2544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 90.424 143.8406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bmi270-board-v3"
+				(path "/f293a697-5cef-4498-8af2-cec0d81ca9d3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 34.544)
+		(size 66.04 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6c9bf35-9b29-4038-93a7-679ecc6867cd")
+		(property "Sheetname" "POWER"
+			(at 33.02 33.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 33.02 87.1986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bmi270-board-v3"
+				(path "/f293a697-5cef-4498-8af2-cec0d81ca9d3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
